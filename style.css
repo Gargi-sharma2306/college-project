@@ -1,0 +1,398 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #1B5E20;
+    
+}
+section{
+    min-height:   100vh;
+    
+}
+section{
+    transition: 1s;
+}
+.Home{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #1B5E20;
+}
+
+.About{
+    background-color: whitesmoke;
+    color: green;
+    
+    padding-top: 10px;
+}
+
+.hero{
+    min-height: 100vh;
+    color: whitesmoke;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.About{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+.about-left{
+    width:45%;
+    position:relative;
+}
+.about-left img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.exp-box{
+    width: 140px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}
+.about-right{
+    width: 45%;
+
+}
+.about-right h4{
+    color: green;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+.about-right p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+
+}
+.point{
+    display:grid;
+    gap: 10px;
+    font-size: 15px;
+    color: green;
+
+}
+
+
+.Skills{
+    color:whitesmoke;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.logo{
+    font-size: 40px;
+    padding: 10px 70px;
+    color: whitesmoke ;
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: auto;
+
+}
+nav h1.logo{
+    font-family:fantasy ;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 60px;
+}
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+    padding: 100px 100px;
+    font-size: 34px;
+}
+.main p{
+    font-size: 20px;
+    padding: 50px 30px;
+   
+}
+.left{
+    width: 50%;
+}
+.small{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.small{
+    color: white;
+    font-size:28px;
+    margin-bottom:25px;
+}
+.right img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+button{
+    margin-top: 30px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(22, 140, 28);
+    color: black;
+    font-size: 20px;
+}
+.Services{
+     background-color: whitesmoke;
+     color: black;
+     text-align: center;
+     padding: 60px;
+}
+.Services h4{
+    color: green;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+
+}
+.Services h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.Service-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    margin-top: 50px;
+
+}
+.card{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    transition: 3s;
+
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 15px;
+}
+.card h2{
+    margin-top:25px;
+    margin-bottom:20px;
+    color:black;
+}
+.card p{
+    color:gray;
+    line-height:30px;
+    font-size:20px;
+}
+.Gallery{
+    background-color: whitesmoke;
+}
+.Testimonials{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+.Testimonials h4{
+     color: green;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.Testimonials h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.cards{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    transition: 3s;
+
+}
+.Testimonials-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.contact{
+    background-color: whitesmoke;
+    color: black;
+}
+.contact{
+
+    background:#f8faf5;
+
+    display: flex;
+    align-items: flex-start;
+
+    justify-content:space-between;
+
+    padding:80px;
+
+    gap:60px;
+}
+
+.contact-left{
+
+    width:45%;
+}
+
+.contact h4{
+
+    color:green;
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
+}
+
+.contact h1{
+
+    font-size:45px;
+
+    margin-bottom:25px;
+}
+
+
+
+.info{
+
+    margin-top:40px;
+}
+
+.info h3{
+
+    color:black;
+
+    margin-bottom:8px;
+}
+
+.info p{
+
+    margin-bottom:20px;
+}
+
+
+
+.contact-right{
+
+    width:55%;
+}
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+label{
+
+    font-size:18px;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+}
+
+input{
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid lightgray;
+
+    border-radius:10px;
+
+    font-size:17px;
+}
+
+textarea{
+
+    height:180px;
+
+    padding:15px;
+
+    border:1px solid lightgray;
+
+    border-radius:10px;
+
+    resize:none;
+
+    margin-bottom:25px;
+
+    font-size:17px;
+}
+
+.contact button{
+
+    width:220px;
+
+    background:green;
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+}
+
+.contact button:hover{
+
+    background:#0f7a22;
+}
+
+
+
+
